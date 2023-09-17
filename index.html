@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <title>CAR SHOWROOM</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CAR SHOWROOM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="car.html">CARS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="container mt-5">
+        <div class="row">
+            <h1> WELCOME TO OUR CAR SHOWROOM</h1>
+            <p>Discover the latest and greatest cars in our collection.</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search for a car" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">SEARCH</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6"></div>
+    </header>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img1.webp" alt="Tesla" class="d-block w-100" onclick="toggleImage(this);">
+          </div>
+          <div class="carousel-item">
+            <img src="mercedes.jpg" alt="XUV 700" class="d-block w-100" onclick="toggleImage(this);">
+          </div>
+          <div class="carousel-item">
+            <img src="Tesla.jpg" alt="BMW 5" class="d-block w-100" onclick="toggleImage(this);">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    <section class="container mt-5">
+        <h2>Featured cars</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                   
+                    <img src="punch.webp" style="height:200px;width:355px;" class="card-img-top" alt="Car Img" onclick="toggleImage(this);">
+                    <div class="card-body">
+                        <h5 class="card-title">Tata Punch</h5>
+                        <p class="card-text">TThe Tata Punch was crash-tested by Global NCAP in 2021 (similar to Latin NCAP 2013) in its most basic safety specification of two airbags, anti-lock brakes and ISOFIX anchorages. It achieved the maximum five star rating for adult protection, showing a stable passenger compartment in the frontal offset crash, negligible pedal intrusion and no rupture of the footwell. Every body region showed either acceptable or good protection in the frontal crash. The Punch is fitted with a pretensioner even for the lower anchorage of the driver's seatbelt, which helped Tata demonstrate (using a complex Euro NCAP sled test) that sharp structures behind the fascia would not increase risk of injury to the knees of differently sized occupants.</p>
+                        <a href="https://www.cardekho.com/tata/punch" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="ambassador.webp"class="card-img-top" alt="Car Img">
+                    <div class="card-body">
+                        <h5 class="card-title">Ambassador</h5>
+                        <p class="card-text">The Hindustan Ambassador is an automobile that was manufactured by Hindustan Motors of India from 1957 to 2014, with improvements and changes over its production lifetime. The Ambassador was based on the Morris Oxford series III model, first made by Morris Motors Limited at Cowley, Oxford in the United Kingdom from 1956 to 1959.</p>
+                        <br><br><br><br><br>
+                        <a href="https://www.cardekho.com/hindustan-motors/hindustan-motors-ambassador-specifications.htm" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="thar.jpg" style="height:200px;width:355px;"class="card-img-top" alt="Car Img">
+                    <div class="card-body">
+                        <h5 class="card-title">Thar</h5>
+                        <p class="card-text">Named after the Thar Desert, the Mahindra Thar was first introduced in 2010 as a modernized version of the Mahindra Legend, which was based on the Mahindra MM540, a vehicle that was in production in India since the 1980s.
+
+                            The Thar was designed to be a rugged, reliable, and affordable off-road vehicle that could handle the rough terrain found in many parts of India. Its design is based on the iconic Jeep CJ series, which Mahindra had been producing under license since the 1940s.
+                            </p>
+                        <br><br><br><br><br>
+                        <a href="https://www.cardekho.com/mahindra/thar" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="creta.jpg" style="height:200px;width:355px;"class="card-img-top" alt="Car Img">
+                    <div class="card-body">
+                        <h5 class="card-title">Creta</h5>
+                        <p class="card-text">The Hyundai Creta, also known as Hyundai ix25 in China, is a subcompact crossover SUV produced by Hyundai since 2014 mainly for emerging markets, particularly BRICS. It is positioned above the Venue and below the Tucson in Hyundai's SUV line-up.
+
+                            The first-generation model debuted as a near-production concept car in China in April 2014, while the second generation was first introduced in 2019. </p>
+                        <br><br><br><br><br><br><br><br>
+                        <a href="https://www.cardekho.com/hyundai/creta" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="XUV.png" style="height:200px;width:355px;"class="card-img-top" alt="Car Img">
+                    <div class="card-body">
+                        <h5 class="card-title">XUV700</h5>
+                        <p class="card-text">In India, the XUV700 is available in two series, which are MX and AdrenoX (AX). The MX series has a single MX trim, while the AdrenoX series consists of four trim levels, which are AX3, AX5, AX7 and AX7L. The AdrenoX series is equipped with the eponymous AdrenoX, an Amazon Alexa-based voice command. Both 5-seater and 7-seater configurations are available.The top-end variant is also equipped with advanced driver assistance system (ADAS) technology tuned for Indian road conditions, making it the first Mahindra product to receive Level 1 autonomous tech.Variants include MX, AX3, AX5, AX7, and AX7L, which is the top model.</p>
+                        <br><br><br>
+                        <a href="https://www.cardekho.com/mahindra/xuv700" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="nano.JPG" style="height:200px;width:355px;"class="card-img-top" alt="Car Img">
+                    <div class="card-body">
+                        <h5 class="card-title">Nano</h5>
+                        <p class="card-text">he Tata Nano is a discontinued city car/microcar made and produced by Indian automaker Tata Motors over a single generation, primarily in India, as an inexpensive rear-engined hatchback intended to appeal to current riders of motorcycles and scooters — with a launch price of ₹100,000 (US$1,300 ) on 10 January 2008.ata Motors projected production figures of 250,000 annually at launch. This was not achieved, and various factors led to a decline in sales volume, including delays during the factory relocation from Singur to Sanand, early instances of the Nano catching fire or the perception of the car being unsafe and lacking quality due to cost cutting. Actual sales reached 7,591 for model year 2016-2017. </p>
+                        <br><br>
+                        <a href="https://www.cardekho.com/used-car-details/used-Tata-Nano-Twist-Xta-cars-New-Delhi_4e5d971e-0136-48cb-8ce8-e0abf8dc3357.htm" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function searchCars() {
+            var input = document.getElementById("searchInput");
+            var searchTerm = input.value.toLowerCase()
+    </script>
+</body>
+</html>
